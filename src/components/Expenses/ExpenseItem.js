@@ -18,7 +18,7 @@ function ExpenseItem(props) {
         <h2>{title}</h2>
         <p className="expense-item__price">${props.exAmount}</p>
       </div>
-      <button onClick={clickHandler}>Change Title</button>
+      {/* <button onClick={clickHandler}>Change Title</button> */}
     </Card>
   );
 }
